@@ -11,6 +11,8 @@ metadata:
     backstage.io/kubernetes-id: backstage-backend
     argocd/app-name: backstage
     jenkins.io/job-full-name: backstage-k3s-docker-pipeline
+    github.com/project-slug:  theorganizationtfg/theorg-catalog
+
 spec:
   type: service
   lifecycle: production
