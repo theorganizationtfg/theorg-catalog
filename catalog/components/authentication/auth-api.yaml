@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: auth-api
   description: REST API for managing user authentication and issuing tokens.
