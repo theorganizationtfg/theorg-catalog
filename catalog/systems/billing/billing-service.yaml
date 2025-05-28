@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: billing-service
+  description: Core microservice that handles billing logic and account charges.
+  tags:
+    - backend
+    - payments
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/chapter-backend
+  system: billing-system

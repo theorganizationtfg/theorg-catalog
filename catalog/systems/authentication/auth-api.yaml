@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: auth-api
+  description: REST API for managing user authentication and issuing tokens.
+  tags:
+    - auth
+    - api
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/chapter-backend
+  system: authentication-system

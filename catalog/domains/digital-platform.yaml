@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: digital-platform
+  description: A domain representing the platform foundation and cross-cutting services.
+spec:
+  owner: group:default/theorganization

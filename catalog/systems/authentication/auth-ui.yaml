@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: auth-ui
+  description: Frontend component responsible for login and registration screens.
+  tags:
+    - frontend
+    - react
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: production
+  owner: group:default/chapter-frontend
+  system: authentication-system

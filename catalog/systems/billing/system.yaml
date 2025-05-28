@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: billing-system
+  description: Manages billing, invoicing, and payment processing.
+spec:
+  owner: group:default/chapter-backend
+  domain: digital-platform

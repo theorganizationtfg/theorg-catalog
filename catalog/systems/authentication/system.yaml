@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: authentication-system
+  description: Handles user authentication and authorization.
+spec:
+  owner: group:default/chapter-backend
+  domain: digital-platform

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: invoice-processor
+  description: Scheduled job that generates and emails invoices to customers.
+  tags:
+    - cron
+    - invoices
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: job
+  lifecycle: production
+  owner: group:default/chapter-backend
+  system: billing-system
