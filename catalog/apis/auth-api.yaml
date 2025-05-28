@@ -9,7 +9,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: service
   lifecycle: production
   owner: group:default/chapter-backend
   system: authentication-system
