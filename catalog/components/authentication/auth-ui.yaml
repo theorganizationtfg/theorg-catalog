@@ -8,6 +8,7 @@ metadata:
     - react
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: adrs
 spec:
   type: website
   lifecycle: production
