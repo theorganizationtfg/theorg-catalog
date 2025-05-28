@@ -9,7 +9,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-type: openapi
+  type: openapi
   lifecycle: production
   owner: group:default/chapter-backend
   system: authentication-system
