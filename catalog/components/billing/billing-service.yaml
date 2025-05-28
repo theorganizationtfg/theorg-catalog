@@ -8,6 +8,9 @@ metadata:
     - payments
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: backstage-backend
+    argocd/app-name: backstage
+    jenkins.io/job-full-name: backstage-k3s-docker-pipeline
 spec:
   type: service
   lifecycle: production
