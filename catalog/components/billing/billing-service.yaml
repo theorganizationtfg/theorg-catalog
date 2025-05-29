@@ -13,6 +13,7 @@ metadata:
     jenkins.io/job-full-name: backstage-k3s-docker-pipeline
     github.com/project-slug:  theorganizationtfg/theorg-catalog
     backstage.io/adr-location: adrs
+    jira/project-key: SCRUM
 spec:
   type: service
   lifecycle: production
