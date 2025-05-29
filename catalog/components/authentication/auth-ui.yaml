@@ -9,6 +9,8 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/adr-location: adrs
+    backstage.io/kubernetes-id: backstage-frontend
+    backstage.io/kubernetes-namespace: backstage
 spec:
   type: website
   lifecycle: production
