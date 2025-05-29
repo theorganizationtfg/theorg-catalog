@@ -6,6 +6,10 @@ metadata:
   tags:
     - backend
     - payments
+  links:
+    - url: https://github.com/theorganizationtfg/theorg-catalog
+      title: GitHub Catalog
+      icon: github
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: backstage-backend
