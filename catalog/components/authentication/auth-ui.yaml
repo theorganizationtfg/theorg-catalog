@@ -11,6 +11,7 @@ metadata:
     backstage.io/adr-location: adrs
     backstage.io/kubernetes-id: backstage-frontend
     backstage.io/kubernetes-namespace: backstage
+    backstage.io/kubernetes-cluster: local
 spec:
   type: website
   lifecycle: production
