@@ -12,7 +12,7 @@ metadata:
       icon: github
   annotations:
     backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-id: backstage
+    backstage.io/kubernetes-label-selector: app=backstage-backend
     backstage.io/kubernetes-namespace: backstage
     argocd/app-name: backstage
     jenkins.io/job-full-name: backstage-k3s-docker-pipeline
