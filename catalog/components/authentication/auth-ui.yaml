@@ -9,7 +9,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/adr-location: adrs
-    backstage.io/kubernetes-id: backstage-frontend
+    backstage.io/kubernetes-label-selector: app=backstage-frontend
     backstage.io/kubernetes-namespace: backstage
     backstage.io/kubernetes-cluster: local
 spec:
