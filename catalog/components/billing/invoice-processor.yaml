@@ -8,6 +8,8 @@ metadata:
     - invoices
   annotations:
     backstage.io/techdocs-ref: dir:.
+    prometheus.io/rule: sum by (instance) (node_cpu_seconds_total)
+    prometheus.io/alert: all
 spec:
   type: job
   lifecycle: production
