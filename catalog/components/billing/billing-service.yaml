@@ -20,6 +20,7 @@ metadata:
     backstage.io/adr-location: adrs
     jira/project-key: SCRUM
     prometheus.io/rule: sum by (instance) (node_cpu_seconds_total), node_memory_MemAvailable_bytes|instance
+    prometheus.io/alert: all
 spec:
   type: service
   lifecycle: production
