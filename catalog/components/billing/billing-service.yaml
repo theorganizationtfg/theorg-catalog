@@ -19,6 +19,7 @@ metadata:
     github.com/project-slug:  theorganizationtfg/theorg-catalog
     backstage.io/adr-location: adrs
     jira/project-key: SCRUM
+    prometheus.io/rule: sum by (instance) (node_cpu_seconds_total), node_memory_MemAvailable_bytes|instance
 spec:
   type: service
   lifecycle: production
