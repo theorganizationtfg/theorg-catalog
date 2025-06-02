@@ -21,7 +21,7 @@ metadata:
     jira/project-key: SCRUM
     prometheus.io/rule: sum by (instance) (node_cpu_seconds_total)
     prometheus.io/alert: all
-      grafana/dashboard-selector: "(tags @> 'backstage-cpu')'
+    grafana/dashboard-selector: "(tags @> 'backstage-cpu')'
 spec:
   type: service
   lifecycle: production
