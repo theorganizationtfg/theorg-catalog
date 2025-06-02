@@ -23,6 +23,7 @@ metadata:
     prometheus.io/alert: all
     grafana/dashboard-selector: "(tags @> 'backstage-cpu')"
     grafana/alert-label-selector: 'app=billing-service'
+    grafana/overview-dashboard: http://localhost:30030/d/fenr15q1kzv28b/cpu?orgId=1&from=now-6h&to=now&timezone=browser
 spec:
   type: service
   lifecycle: production
