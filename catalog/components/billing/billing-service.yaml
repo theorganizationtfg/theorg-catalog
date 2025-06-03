@@ -23,6 +23,8 @@ metadata:
     prometheus.io/alert: all
     grafana/dashboard-selector: "(tags @> 'backstage-cpu')"
     grafana/alert-label-selector: app=billing-service
+    snyk.io/org-id: 023b8e67-44a0-2c22-8f12-928afd5555a6
+    snyk.io/project-ids: a484781c-1a88-4d3a-b388-c1374f1148b1
 spec:
   type: service
   lifecycle: production
