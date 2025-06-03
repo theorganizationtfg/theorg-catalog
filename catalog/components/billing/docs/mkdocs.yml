@@ -1,6 +1,6 @@
 site_name: Docs for component
 site_description: Details and documentation about the given component
-docs_dir: docs
+docs_dir: .
 nav:
   - Home: index.md
 theme:
